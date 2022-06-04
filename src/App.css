@@ -1,3 +1,8 @@
+
+body{
+  background: rgb(255,255,255);
+background: linear-gradient(329deg, rgba(255,255,255,1) 0%, rgba(255,182,183,1) 50%, rgba(169,48,50,1) 100%);
+}
 .App {
   text-align: center;
 }
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;

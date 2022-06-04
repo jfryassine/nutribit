@@ -1,7 +1,8 @@
 import React from 'react'
-import {Instagram,LinkedIn,GitHub} from "@material-ui/icons"
+import {Instagram,Telegram} from "@material-ui/icons"
 import './footer.scss'
 import logo from '../../assets/logo.png'
+import wave from '../../assets/wave.svg'
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
@@ -10,25 +11,22 @@ export default function Footer() {
 
     return (
         <div>
-            <footer class="footer-distributed">
-
+<footer class="footer">
+<div className="footer_container">
+<img className='wave' src={wave} />
 <div class="footer-right">
 
   <a href="https://www.instagram.com/nutribit_/" target="_blank" rel="noopener noreferrer"><Instagram className="icon"/></a>
-  <a href="https://www.linkedin.com/in/jaafaryassine/" target="_blank" rel="noopener noreferrer"><LinkedIn className="icon"/></a>
-  <a href="https://github.com/jfryassine" target="_blank" rel="noopener noreferrer"><GitHub className="icon"/></a>
+  <a href="#" target="_blank" rel="noopener noreferrer"><Telegram className="icon"/></a>
+  
 
 </div>
 
 <div class="footer-left">
-
-  <p class="footer-links">
-    <a href='#' class="link-1" onClick={() => window.scroll({ top: 0, left: 0, behavior: 'smooth' })}><img className='logo_footer' src={logo}/></a>
-  </p>
-
-  <p>{t('copyright')} <a className="jy" href='http://www.jaafaryassine.me'>jy.</a></p>
+<img src={logo}/>
+<p>All rights reserved, nutribit &copy; 2022</p>
 </div>
-
+</div>
 </footer>
         </div>
     )
