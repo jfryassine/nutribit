@@ -1,7 +1,46 @@
 
-body{
-  background: rgb(255,255,255);
-background: linear-gradient(329deg, rgba(255,255,255,1) 0%, rgba(255,182,183,1) 50%, rgba(169,48,50,1) 100%);
+body {	
+	background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A );
+	background-size: 100%;
+	background-repeat: no-repeat;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  -webkit-tap-highlight-color: transparent;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+*::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+body:before{
+	content:'';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #21D4FD 75%);
+}
+
+
+// Not demo related
+
+// Thanks to Corey Ginnivan for some design advice 
+
+html {
+	margin: 0;
+	font-family: 'Muli', sans-serif;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	margin: 0;
+	font-size: 1.15rem;
+	line-height: 1.4em;
 }
 .App {
   text-align: center;
