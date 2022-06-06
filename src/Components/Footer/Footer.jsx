@@ -14,7 +14,7 @@ export default function Footer() {
 <footer class="footer">
 <div className="footer_container">
 <img className='wave' src={wave} />
-<div class="footer-right">
+<div className="footer-right">
 
   <a href="https://www.instagram.com/nutribit_/" target="_blank" rel="noopener noreferrer"><Instagram className="icon"/></a>
   <a href="#" target="_blank" rel="noopener noreferrer"><Telegram className="icon"/></a>
@@ -22,9 +22,9 @@ export default function Footer() {
 
 </div>
 
-<div class="footer-left">
-<img src={logo}/>
-<p>All rights reserved, nutribit &copy; 2022</p>
+<div className="footer-left">
+
+<label className="copyright_text">All rights reserved, nutribit &copy; 2022</label>
 </div>
 </div>
 </footer>

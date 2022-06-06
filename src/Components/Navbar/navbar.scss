@@ -1,41 +1,36 @@
+.topbar{
+  position: absolute;
+  
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  display:flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  
 
 
-.topnav{
-    background-color: #292c2f;
-    height: 7vh;
-    align-items: center;
-    overflow: hidden;
- 
-    .logo{
-        float: right;
-        height: 5vh;
-        margin-right: 1%;
-        
-        
-    }
-    .custom-select{
-      float: right;
-      margin: 15px;
-      
+}
 
 
-    }
-    a{
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
+.left{
+  flex: 1;
+  margin: 1%;
+  color: white;
+  top:0;
+  left: 0;
+  text-align:left;
+  .logo{
+    max-height: 3rem;
+  }
+  
+}
 
-    a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-
-      a.active {
-        background-color: #04AA6D;
-        color: white;
-      }  
+.right{
+ flex: 1;
+  margin: 1%;
+  text-align: right;
+  
+  color: white;
 }

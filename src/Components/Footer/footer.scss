@@ -42,16 +42,21 @@
 }
 
 @media (max-width: 800px) {
+  
   .footer-left{
-    position: absolute;
-    left: 1%;
-    bottom: 0;
-    color: white;
-    text-align: start;
-    font-size:x-small;
-    img{
+    font-size:xx-small;
+    
+    .copyright_text{
+      bottom: 0;
+      left: 0;
+     
+    }
+  }
+
+  .footer-right{
+    font-size: xx-small;
+    .icon{
       height: 1rem;
-      width: 3rem;
     }
   }
 

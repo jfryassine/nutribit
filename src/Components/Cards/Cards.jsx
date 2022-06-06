@@ -5,8 +5,8 @@ import nutribit from '../../assets/nutribit.jpg'
 
 export const Cards = () => {
   return (
-    <div class="row">
-            <div class="col-lg-6 mx-auto">
+    <div class="row container">
+            <div class="col-md-6 mx-auto">
 
                
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
@@ -19,7 +19,7 @@ export const Cards = () => {
                 
 
             </div>
-            <div class="col-lg-6 mx-auto">
+            <div class="col-md-6 mx-auto">
 
                
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
@@ -33,7 +33,7 @@ export const Cards = () => {
 
             </div>
 
-            <div class="col-lg-6 mx-auto">
+            <div class="col-md-6 mx-auto">
 
                
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
@@ -46,7 +46,7 @@ export const Cards = () => {
                 
 
             </div>
-            <div class="col-lg-6 mx-auto">
+            <div class="col-md-6 mx-auto">
 
                
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
@@ -59,7 +59,7 @@ export const Cards = () => {
                 
 
             </div>
-            <div class="col-lg-6 mx-auto">
+            <div class="col-md-6 mx-auto">
 
                
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
@@ -72,7 +72,7 @@ export const Cards = () => {
                 
 
             </div>
-            <div class="col-lg-6 mx-auto">
+            <div class="col-md-6 mx-auto">
 
                
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
@@ -85,7 +85,7 @@ export const Cards = () => {
                 
 
             </div>
-            <div class="col-lg-6 mx-auto">
+            <div class="col-md-6 mx-auto">
 
                
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
