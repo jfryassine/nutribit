@@ -1,8 +1,6 @@
 import React from 'react'
 import {Instagram,Telegram} from "@material-ui/icons"
 import './footer.scss'
-import logo from '../../assets/logo.png'
-import wave from '../../assets/wave.svg'
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
@@ -10,24 +8,27 @@ export default function Footer() {
   const { t } = useTranslation();
 
     return (
-        <div>
-<footer class="footer">
-<div className="footer_container">
-<img className='wave' src={wave} />
-<div className="footer-right">
+      <div>
+      <footer class="footer-distributed">
 
-  <a href="https://www.instagram.com/nutribit_/" target="_blank" rel="noopener noreferrer"><Instagram className="icon"/></a>
-  <a href="#" target="_blank" rel="noopener noreferrer"><Telegram className="icon"/></a>
-  
+<div class="footer-right">
+
+<a href="https://www.instagram.com/nutribit_/" target="_blank" rel="noopener noreferrer"><Instagram className="icon"/></a>
+<a href="https://www.linkedin.com/in/jaafaryassine/" target="_blank" rel="noopener noreferrer"><Telegram className="icon"/></a>
+
 
 </div>
 
-<div className="footer-left">
+<div class="footer-left">
 
-<label className="copyright_text">All rights reserved, nutribit &copy; 2022</label>
+<p class="footer-links">
+<a class="link-1" onClick={() => window.scroll({ top: 0, left: 0, behavior: 'smooth' })}>nutribit</a>
+</p>
+
+<p>{t('copyright')} Jaafar Yassine</p>
 </div>
-</div>
+
 </footer>
-        </div>
+  </div>
     )
 }

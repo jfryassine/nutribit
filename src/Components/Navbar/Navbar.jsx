@@ -12,8 +12,8 @@ export const Navbar = () => {
     const { t, i18n } = useTranslation();
 
     const changeLanguageHandler = (e) => {
-      const languageValue = e.target.value
-      i18n.changeLanguage(languageValue);
+      
+      i18n.changeLanguage(e);
     }
 
     
