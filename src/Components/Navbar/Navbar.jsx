@@ -1,12 +1,13 @@
 import {React, useState} from 'react'
 import "./navbar.scss"
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo_white.png"
 import { useTranslation } from "react-i18next";
 import FontAwesomeIcon from '@fortawesome/fontawesome-free'
 
 export const Navbar = () => {
 
     const [currentPage, setCurrentPage] = useState('home');
+    
 
     const { t, i18n } = useTranslation();
 
@@ -26,11 +27,10 @@ export const Navbar = () => {
           
         <div className="right">
 
-        <select className="custom-select"  onChange={changeLanguageHandler}>
-        <option disabled selected>Language 🌐 </option>
-        <option value="en" >English</option>
-        <option value="ar" >العربية</option>
-      </select>
+        
+        <a href="#"  onClick={()=>changeLanguageHandler('en')}>English </a>|
+        <a href="#"  onClick={()=>changeLanguageHandler('ar')}> العربية</a>
+      
         
         
         </div>
