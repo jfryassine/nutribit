@@ -14,7 +14,7 @@ export default function Footer() {
 <div class="footer-right">
 
 <a href="https://www.instagram.com/nutribit_/" target="_blank" rel="noopener noreferrer"><Instagram className="icon"/></a>
-<a href="https://www.linkedin.com/in/jaafaryassine/" target="_blank" rel="noopener noreferrer"><Telegram className="icon"/></a>
+<a href="#" target="_blank" rel="noopener noreferrer"><Telegram className="icon"/></a>
 
 
 </div>
