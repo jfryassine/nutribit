@@ -1,9 +1,11 @@
 import React from 'react'
 import './cards.scss'
-import "bootstrap/dist/css/bootstrap.min.css";
-import {Carousel} from 'react-bootstrap';
-import logo from '../../assets/logo.png'
+import "bootstrap/dist/css/bootstrap.min.css"
+import {Carousel} from 'react-bootstrap'
 import leaf from '../../assets/leaf.png'
+import food1 from '../../assets/food1.jpg'
+import food2 from '../../assets/food2.jpg'
+import food3 from '../../assets/food3.jpg'
 
 export const Cards = () => {
   return (
@@ -12,18 +14,18 @@ export const Cards = () => {
   <Carousel.Item>
     <img
       className="d-block w-100 car-img"
-      src='http://www.emro.who.int/images/stories/nutrition/balanced-diet.jpg'
+      src={food1}
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3 className='label_first'>First slide label</h3>
+      <p className='p_first'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100 car-img"
-      src='https://www.efsa.europa.eu/sites/default/files/styles/share_opengraph/public/2021-03/experts_nutrition_0.jpg?h=827069f2&itok=YAGsYBZJ'
+      src={food2}
       alt="Second slide"
     />
 
@@ -35,7 +37,7 @@ export const Cards = () => {
   <Carousel.Item>
     <img
       className="d-block w-100 car-img"
-      src='https://static01.nyt.com/images/2019/02/28/opinion/28yun/28yun-jumbo.jpg?quality=75&auto=webp'
+      src={food3}
       alt="Third slide"
     />
 
