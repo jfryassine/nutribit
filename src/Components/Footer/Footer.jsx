@@ -25,7 +25,7 @@ export default function Footer() {
 <a class="link-1" onClick={() => window.scroll({ top: 0, left: 0, behavior: 'smooth' })}>nutribit</a>
 </p>
 
-<p>{t('copyright')}</p>
+<p>{t('copyright') Developed by jy.}</p>
 </div>
 
 </footer>
