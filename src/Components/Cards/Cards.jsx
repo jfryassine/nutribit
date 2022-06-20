@@ -18,7 +18,7 @@ export const Cards = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3 className='label_first'>First slide label</h3>
+      <h3 className='label_first'>label of first slide</h3>
       <p className='p_first'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
